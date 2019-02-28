@@ -1,45 +1,50 @@
+<!--
+Kormákur Atli
+kormakur.is
+2019
+-->
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Vélmenni.is</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
 	<header>
 		<div class="header">
 			<hr>
 			<div class="icon">
-				<a href="#"><img class="img" src="img/icon.png"></a>
+				<a href="?link=1" name="link1"><img class="img" src="img/icon.png"></a>
 			</div>
 			<div class="nav">
-				<a href="">FRÉTTIR</a><!--
-				--><a href="">STYRKTARAÐILAR</a><!--
-				--><a href="">MYNDIR</a>
+				<a href="?link=2" name="link2">LIÐIÐ</a><!--
+				--><a href="?link=3" name="link3">KEPPNIN</a><!--
+				--><a href="?link=4" name="link4">STYRKTARAÐILAR</a><!--
+				--><a href="?link=5" name="link5">FRÉTTIR</a>
 			</div>
 			<hr>
 		</div>
 	</header>
-	<div class="front_img">
-		<img src="img/front_image_5.jpg">
-		<div class="centered">
-			<h1>LANDSLIÐIÐ Í VÉLMENNAFORRITUN</h1>
-		</div>
-	</div>
-	<div class="mid">
-		
-		<h1>LANGAR ÞIG AÐ VERA Í LANDSLIÐINU Í VÉLMENNAFORRITUN?</h1>
-		<a class="button_link" href="#">
-			<div class="button">
-				<p>SÆKTU UM!</p>
-			</div>
-		</a>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</div>
+		<?php
+        $link=$_GET['link'];
+        if ($link == '1'){
+             include 'pages/main.php';
+        }
+        if ($link == '2'){
+            include 'pages/lidid.php';
+        }
+        if ($link == '3'){
+            include 'pages/keppnin.php';
+        }
+        if ($link == '4'){
+            include 'pages/styrktaradilar.php';
+        }
+        if ($link == '5'){
+            include 'pages/frettir.php';
+        }
+        if (!isset($_GET['link'])){
+        	include 'pages/main.php';
+        }
+            ?>  
 </body>
 </html>
