@@ -1,4 +1,4 @@
-<title>STYRKTARAÐILAR</title>
+<title>Styrktaraðilar</title>
 <div class="mid">
 		<h1>HÉRNA KOMA UPPLÝSINGAR UM STYRKTARAÐILA</h1>
 		

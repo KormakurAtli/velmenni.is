@@ -1,4 +1,4 @@
-<title>KEPPNIN</title>
+<title>Keppnin</title>
 <div class="mid">
 		<h1>HÉRNA KOMA UPPLÝSINGAR UM KEPPNINA</h1>
 		

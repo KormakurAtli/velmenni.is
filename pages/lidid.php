@@ -1,4 +1,4 @@
-<title>LIÐIÐ</title>
+<title>Liðið</title>
 <div class="mid">
 		<h1>HÉRNA KOMA UPPLÝSINGAR OG MYNDIR AF LIÐINU</h1>
 		

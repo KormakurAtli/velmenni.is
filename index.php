@@ -8,6 +8,7 @@ kormakur.is
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="icon" href="img/ice.ico" type="image/x-icon" />
 </head>
 <body>
 	<header>
@@ -22,9 +23,23 @@ kormakur.is
 				--><a href="?link=4" name="link4">STYRKTARAÐILAR</a><!--
 				--><a href="?link=5" name="link5">FRÉTTIR</a>
 			</div>
+			<div class="nav_mobile">
+				<input type="checkbox" id="burger-shower" class="burger-shower">
+				<label for="burger-shower" class="hamburger">	
+					<div class="wrapper-menu">
+				  		<div class="line-menu half start"></div>
+  						<div class="line-menu"></div>
+  						<div class="line-menu half end"></div>
+					</div>
+				</label>
+				<div class="burger-menu">
+					<a href="?link=2" name="link2"><label for="burger-shower">LIÐIÐ</a><hr><a href="?link=3" name="link3">KEPPNIN</a><hr><a href="?link=4" name="link4">STYRKTARAÐILAR</a><hr><a href="?link=5" name="link5">FRÉTTIR</a>
+				</div>
+			</div>
 			<hr>
 		</div>
 	</header>
+	<div class="a_a"></div>
 		<?php
         $link=$_GET['link'];
         if ($link == '1'){
@@ -47,4 +62,5 @@ kormakur.is
         }
             ?>  
 </body>
+<script type="text/javascript" src="js/menu_icon.js"></script>
 </html>

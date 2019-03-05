@@ -2,7 +2,7 @@
 <?php include 'pages/front.php' ?>
 <div class="mid">
 		<h1>LANGAR ÞIG AÐ VERA Í LANDSLIÐINU Í VÉLMENNAFORRITUN?</h1>
-		<a class="button_link" href="#">
+		<a class="button_link" href="https://goo.gl/forms/w1xwOH33IZKHPiF72">
 			<div class="button">
 				<p>SÆKTU UM!</p>
 			</div>

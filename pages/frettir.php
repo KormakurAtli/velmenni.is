@@ -1,4 +1,4 @@
-<title>FRÉTTIR</title>
+<title>Fréttir</title>
 <div class="mid">
 		<h1>HÉRNA KOMA FRÉTTIR</h1>
 		
