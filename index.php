@@ -8,6 +8,7 @@ kormakur.is
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/footer.css">
 	<link rel="icon" href="img/ice.ico" type="image/x-icon" />
 </head>
 <body>
@@ -60,7 +61,24 @@ kormakur.is
         if (!isset($_GET['link'])){
         	include 'pages/main.php';
         }
-            ?>  
+            ?>
+    <div class="footer">
+	    
+	    	<div class="foot-left">
+	    		<div class="icon">
+					<a href="?link=1" name="link1"><img class="foot-icon" src="img/icon.png"></a>
+				</div>
+	    	</div>
+	    	
+	    	<div class="foot-center">
+	    		<p><a href="http://www.facebook.com/FirstGlobalIceland/"><img src="img/fb.png"></a>
+	    		<a href="http://www.instagram.com/firstglobaliceland/"><img src="img/insta.png"></a><a href="http://www.github.com/KormakurAtli/velmenni.is"><img src="img/github.png"></a></p>
+	    	</div>
+	    	
+	    	<div class="foot-right" style="width: 250px">
+	    		<p><b>Tengiliður</b><br><br>Eyþór Máni Steinarsson<br><a href="mailto:e@moon.do?subject=Fyrirspurn varðandi landsliðið í vélmennaforritun">e@moon.do</a><br><a href="tel:+3546631806">663-1806</a></p>
+	    	</div>
+    </div>
 </body>
 <script type="text/javascript" src="js/menu_icon.js"></script>
 </html>
